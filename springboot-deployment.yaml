@@ -52,6 +52,13 @@ spec:
               value: "true"
             - name: SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_ENABLE
               value: "true"
+              # Twilio Config
+            - name: TWILIO_ACCOUNT_SID
+              value: "AC4593f5df8d646b61a1833514cdfb2819"
+            - name: TWILIO_AUTH_TOKEN
+              value: "8c138438840152489e50aca99639bb10"
+            - name: TWILIO_PHONE_NUMBER
+              value: "+14029014340"
 ---
 apiVersion: v1
 kind: Service
