@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: marwenhm/pfeamiranimee:3
+        image: ranimesebti/ami_client_connect:0.0.1
         ports:
         - containerPort: 80
 ---
